@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiZend, DiTerminal } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -24,11 +24,17 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Front-End</ListTitle>
                     <ListParagraph>
+                        Vanilla JavaScript
+                        <br />
                         React.js
+                        <br />
+                        React Native
                         <br />
                         NextJs
                         <br />
                         Sveltekit
+                        <br />
+                        Sass
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
@@ -37,17 +43,40 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Back-End</ListTitle>
                     <ListParagraph>
-                        Node.js
+                        Express
                         <br />
-                        databases
+                        Mongoose
+                        <br />
+                        MongoDb
+                        <br />
+                        Firebase
+                        <br />
+                        Sanity
+                        <br />
+                        Stripe
+                        <br />
+                        Databases
+                        <br />
+                        API's
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
             <ListItem>
-                <DiZend size="3rem" />
+                <DiTerminal size="3rem" />
                 <ListContainer>
-                    <ListTitle>UI/UX</ListTitle>
-                    <ListParagraph>Design tools such as Figma</ListParagraph>
+                    <ListTitle>Machine Learning</ListTitle>
+                    <ListParagraph>
+                        Pandas
+                        <br />
+                        Matplotlib
+                        <br />
+                        Numpy
+                        <br />
+                        Scikit-learn
+                        <br />
+                        TensorFlow3
+                        <br />
+                    </ListParagraph>
                 </ListContainer>
             </ListItem>
         </List>
