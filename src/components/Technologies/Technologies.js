@@ -8,22 +8,39 @@ const Technologies = () => (
         <SectionDivider />
         <br />
         <br />
-        <br />
         <SectionTitle>Technologies</SectionTitle>
-        <SectionText>Information about the tech stack that I program in</SectionText>
+        <SectionText>
+            I currently use Figma as well as open source projects for my design processes.
+            <br />
+            <br />
+            I program in a variety of languages such as JavaScript, Node.js, and Python3 to name a few.
+            <br />
+            <br />
+            Some frameworks/libraries I like to use are React.js, NextJs, Express, Mongoose, TensorFlow, and Scikit-learn.
+        </SectionText>
         <List>
             <ListItem>
                 <DiReact size="3rem" />
                 <ListContainer>
                     <ListTitle>Front-End</ListTitle>
-                    <ListParagraph>Experience with React.js</ListParagraph>
+                    <ListParagraph>
+                        React.js
+                        <br />
+                        NextJs
+                        <br />
+                        Sveltekit
+                    </ListParagraph>
                 </ListContainer>
             </ListItem>
             <ListItem>
                 <DiFirebase size="3rem" />
                 <ListContainer>
                     <ListTitle>Back-End</ListTitle>
-                    <ListParagraph>Experience with Node.js & databases</ListParagraph>
+                    <ListParagraph>
+                        Node.js
+                        <br />
+                        databases
+                    </ListParagraph>
                 </ListContainer>
             </ListItem>
             <ListItem>
