@@ -11,7 +11,7 @@ const Hero = (props) => (
                 Welcome To My Portfolio <br />
             </SectionTitle>
             <SectionText>
-                Hi my name's Jarrod and I'm a <span style={{ color: 'white' }}>fullstack developer</span> that loves keeping up with all <span style={{ color: 'white' }}>modern trends</span>. Feel free to look around and dive into the projects I've made. For more information on my tech stack please visit the
+                Hi my name's Jarrod and I'm a <span style={{ color: 'white' }}>fullstack developer</span> that loves keeping up with all <span style={{ color: 'white' }}>modern trends</span>. Feel free to look around and dive into the projects I've made. For more information on my tech stack please visit the{' '}
                 <a href="#technologies" style={{ color: 'white' }}>
                     Technologies section.
                 </a>
