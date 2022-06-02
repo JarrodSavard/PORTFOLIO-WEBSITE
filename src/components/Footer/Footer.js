@@ -2,7 +2,7 @@ import React from 'react';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer, Copyright } from './FooterStyles';
 
 const Footer = () => {
     return (
@@ -26,6 +26,7 @@ const Footer = () => {
                     </SocialIcons>
                 </SocialContainer>
             </SocialIconsContainer>
+            <Copyright>&copy; JarrodSavard 2022</Copyright>
         </FooterWrapper>
     );
 };
