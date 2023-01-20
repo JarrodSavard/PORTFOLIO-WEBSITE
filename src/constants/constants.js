@@ -1,7 +1,7 @@
 export const projects = [
 	{
 		title: 'Market Caviar LLC',
-		description: `Market Caviar LLC is a SaaS business I built from the ground up using all the newest technologies. Its purpose is to help people make more informed decisions when trading equities and etfs. Market Caviar LLC implements machine learning, algorithmic analysis, and live graphing techniques. For more information such as Market Caviar LLCs stack feel free to contact me.`,
+		description: `Market Caviar LLC is a SaaS business thats purpose is to help people make more informed decisions when trading equities and etfs. Market Caviar LLC implements machine learning, algorithmic analysis, and live graphing techniques. For more information such as Market Caviar LLCs stack feel free to contact me.`,
 		image: '/images/1.webP',
 		tags: ['NextJs', 'JavaScript', 'Stripe', 'SES', 'LINUX'],
 		source: 'https://www.marketcaviar.com/',
