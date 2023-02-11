@@ -9,19 +9,19 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
 const Home = () => {
-    return (
-        <Layout>
-            <Section grid>
-                <Hero />
-                <BgAnimation />
-            </Section>
-            <Projects />
-            <Technologies />
-            <Timeline />
-            {/* <Accomplishments /> */}
-            <Footer />
-        </Layout>
-    );
+	return (
+		<Layout>
+			<Section grid>
+				<Hero />
+				<BgAnimation />
+			</Section>
+			<Projects />
+			<Technologies />
+			<Timeline />
+
+			<Footer />
+		</Layout>
+	);
 };
 
 export default Home;
