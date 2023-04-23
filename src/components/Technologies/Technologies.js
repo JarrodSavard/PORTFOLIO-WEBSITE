@@ -10,13 +10,13 @@ const Technologies = () => (
 		<br />
 		<SectionTitle>Technologies</SectionTitle>
 		<SectionText>
-			I currently use Figma as well as open source projects for my design processes.
+			On the front-end, I work with frameworks and libraries such as Framer Motion, Jest (for testing), React Native, Sveltekit, React.js, NextJs, and Sass.
 			<br />
 			<br />
-			I program in a variety of languages such as JavaScript, Node.js, and Python3 to name a few.
+			For the back-end, I utilize Mongoose, MongoDB, Firebase, Express, Argon2, Sanity, Stripe, Redis, JWT, and SQL.
 			<br />
 			<br />
-			Some frameworks/libraries I like to use are React.js, NextJs, Express, Mongoose, TensorFlow, and Scikit-learn.
+			In addition, I have experience with machine learning tools and libraries such as Pandas, Matplotlib, Numpy, Scikit-learn, and TensorFlow.
 		</SectionText>
 		<List>
 			<ListItem>

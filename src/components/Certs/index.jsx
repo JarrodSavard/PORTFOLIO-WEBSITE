@@ -17,8 +17,8 @@ const Projects = () => {
 							<HeaderThree title>{title}</HeaderThree>
 							<Hr />
 						</TitleContent>
-
 						<CardInfo>{description}</CardInfo>
+
 						<div>
 							<br />
 							<TitleContent> Stack</TitleContent>
@@ -29,10 +29,8 @@ const Projects = () => {
 							</TagList>
 						</div>
 						<UtilityList>
-							<div style={{ display: 'grid', width: '100%', justifyItems: 'center' }}>
-								<ExternalLinks href={visit}>Visit</ExternalLinks>
-								<ExternalLinks href={source}>Source</ExternalLinks>
-							</div>
+							<ExternalLinks href={visit}>Visit</ExternalLinks>
+							{/* <ExternalLinks href={source}>Source</ExternalLinks> */}
 						</UtilityList>
 					</BlogCard>
 				))}

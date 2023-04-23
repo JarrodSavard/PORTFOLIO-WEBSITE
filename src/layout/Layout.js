@@ -12,7 +12,7 @@ export const Layout = ({ children }) => {
 				<title>Portfolio: Jarrod Savard</title>
 				<meta name="description" content="Jarrod Savard's portfolio" />
 			</Head>
-			<Container>
+			<Container style={{ overflow: 'hidden' }}>
 				<Header />
 				<main>{children}</main>
 			</Container>

@@ -1,4 +1,5 @@
 // import Accomplishments from '../components/Accomplishments/Accomplishments';
+import { Parallax } from 'react-scroll-parallax';
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import Footer from '../components/Footer/Footer';
 import Hero from '../components/Hero/Hero';
@@ -15,6 +16,7 @@ const Home = () => {
 				<Hero />
 				<BgAnimation />
 			</Section>
+
 			<Projects />
 			<Technologies />
 			<Timeline />
